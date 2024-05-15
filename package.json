@@ -1,0 +1,42 @@
+{
+  "name": "vite-react-router-dom",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkamesh98/vite-react-router-dom.git"
+  },
+  "author": "Kamesh Gullapalli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkamesh98/vite-react-router-dom/issues"
+  },
+  "homepage": "https://github.com/gkamesh98/vite-react-router-dom#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.12"
+  }
+}

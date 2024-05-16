@@ -1,0 +1,1 @@
+import{j as t}from"./index-nmdzcCGr.js";import{N as e}from"./index-TleEoDSW.js";import"./index-VEYcWNDB.js";const i=()=>t.jsx(e,{to:"/test/test",children:t.jsx("p",{children:"Redirect to test"})});export{i as default};

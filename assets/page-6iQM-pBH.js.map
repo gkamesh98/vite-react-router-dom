@@ -1,0 +1,1 @@
+{"version":3,"file":"page-6iQM-pBH.js","sources":["../../src/pages/about/page.jsx"],"sourcesContent":["const About = () => {\r\n  return <p>\r\n    about\r\n  </p>\r\n}\r\n\r\nexport default About"],"names":["About","jsx"],"mappings":"wCAAA,MAAMA,EAAQ,IACLC,EAAA,IAAC,KAAE,SAEV,OAAA,CAAA"}

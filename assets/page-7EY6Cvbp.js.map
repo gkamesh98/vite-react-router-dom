@@ -1,0 +1,1 @@
+{"version":3,"file":"page-7EY6Cvbp.js","sources":["../../src/pages/how-to-use/page.jsx"],"sourcesContent":["const HowToUse = () => {\r\n  return <p>How to use</p>\r\n}\r\n\r\nexport default HowToUse"],"names":["HowToUse","jsx"],"mappings":"wCAAA,MAAMA,EAAW,IACRC,EAAA,IAAC,KAAE,SAAU,YAAA,CAAA"}

@@ -72,3 +72,4 @@ function __vite__mapDeps(indexes) {
   }
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }
+//# sourceMappingURL=index-jQe4IFY5.js.map

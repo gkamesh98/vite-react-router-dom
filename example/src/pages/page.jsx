@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from "vite-react-router-dom";
 
 const Page = () => {
   return (

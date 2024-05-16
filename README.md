@@ -5,10 +5,20 @@ Use this package when you decide to use the react-router-dom and with vite. It s
 ## Installation
 
 ```bash
-npm install react-router-dom vite-react-router-dom
+npm install vite-react-router-dom
 ```
 
-Here in this package we are using the react-router-dom as a peer dependency. 
+and 
+
+if you are currently using the react-router-dom remove it and update imports from the react-router-dom to vite-react-router-dom in entire application
+
+```bash
+npm uninstall react-router-dom
+```
+
+Since Entire context is being will use same context as the one react-router. In the dev and served time it will work but sometimes during the statically served then it might cause the issue.
+
+It exports all exports of the react-router-dom. 
 
 ## Usage 
 
@@ -65,3 +75,8 @@ Fallback Element been shown during he load of the page. Type is the react elemen
 If Page is not found then this element will be displayed in the page.
 ### routerType 
 It accepts [browser](https://reactrouter.com/en/main/routers/create-browser-router#createbrowserrouter), [hash](https://reactrouter.com/en/main/routers/create-hash-router#createhashrouter), [memory](https://reactrouter.com/en/main/routers/create-memory-router#creatememoryrouter). Default is browser. can learn about it more from here who they vary 
+### basename
+It take base path name that has to be accepted. On top of it will the base will be pathname in the useLocation. 
+
+## Example
+You can see a example over here github [pages](https://gkamesh98.github.io/vite-react-router-dom/)

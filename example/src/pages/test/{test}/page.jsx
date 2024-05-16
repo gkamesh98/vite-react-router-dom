@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "vite-react-router-dom"
 
 const Test = () => {
   const params = useParams()

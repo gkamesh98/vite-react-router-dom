@@ -1,7 +1,7 @@
 import { ViteRoute } from "vite-react-router-dom";
 
 const App = () => {
-  return <ViteRoute />;
+  return <ViteRoute basename="/vite-react-router-dom" />;
 };
 
 export default App;

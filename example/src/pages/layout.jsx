@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../css/layout.css";
-import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "vite-react-router-dom";
 import { useEffect } from "react";
 
 const routesAvailable = [

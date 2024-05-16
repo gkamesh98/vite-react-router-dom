@@ -1,6 +1,6 @@
 {
   "name": "vite-react-router-dom",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Removes the boiler plate code when using react-router-dom",
   "type": "module",
   "main": "./index.js",
@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "cd ./example && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -26,12 +27,12 @@
   },
   "homepage": "https://github.com/gkamesh98/vite-react-router-dom#readme",
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "react-router-dom": "^6.23.1"
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.10",

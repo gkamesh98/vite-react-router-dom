@@ -91,15 +91,17 @@ const routerTypes = {
   memory: createMemoryRouter
 }
 
-const Routes = ({ defaultErrorElement, fallbackElement, notFoundElement, routerType  }) => {
+const Routes = ({ defaultErrorElement, fallbackElement, notFoundElement, routerType, basename = '/'  }) => {
   const router = useMemo(() => {
     const browserRoutes = buildRouter(
       import.meta.glob("/src/pages/**/{page,layout}.{jsx,tsx}"),
       defaultErrorElement,
       notFoundElement
     );
-    return routerTypes[routerType](browserRoutes);
-  }, []);
+    return routerTypes[routerType](browserRoutes, {
+      basename
+    });
+  }, [basename]);
 
   return <RouterProvider router={router} fallbackElement={fallbackElement} />;
 };

@@ -9,7 +9,6 @@ export default defineConfig({
       name: 'vite-react-router-dom',
       // the proper extensions will be added
       fileName: 'vite-react-router-dom',
-      
     },
   },
 })

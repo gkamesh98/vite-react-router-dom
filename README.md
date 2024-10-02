@@ -29,7 +29,7 @@ import { ViteRoute } from 'vite-react-router-dom'
 const App = () => {
   return <React.Fragment>
   <!-- rest of all -->
-  <ViteRoute defaultErrorElement={<React.Fragment/>} fallbackElement={<React.Fragment/>} notFoundElement={<React.Fragment/>} routerType="browser"/>
+  <ViteRoute defaultErrorElement={React.Fragment} fallbackElement={<React.Fragment/>} notFoundElement={<React.Fragment/>} routerType="browser"/>
   </React.Fragment>
 }
 ```

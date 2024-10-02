@@ -107,7 +107,7 @@ const Routes = ({ defaultErrorElement, fallbackElement, notFoundElement, routerT
 };
 
 Routes.propTypes = {
-  defaultErrorElement: PropTypes.element,
+  defaultErrorElement: PropTypes.elementType,
   notFoundElement: PropTypes.element,
   routerType: PropTypes.oneOf([
     ...Object.keys(routerTypes)

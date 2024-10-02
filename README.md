@@ -24,7 +24,7 @@ It exports all exports of the react-router-dom.
 
 Here we are uplifting most of boiler plate code. By creating the provider and then specifying each individual route manually. You can 
 ``` 
-import ViteRoute from vite-react-router-dom
+import { ViteRoute } from 'vite-react-router-dom'
 
 const App = () => {
   return <React.Fragment>
